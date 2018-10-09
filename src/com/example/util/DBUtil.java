@@ -8,7 +8,7 @@ public class DBUtil {
 	public static Connection getMySqlConnection() throws Exception {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection(
-				"jdbc:mysql://mydbinstance.cvykxqubmqgq.us-east-2.rds.amazonaws.com/db_example", "Namrata", "mydbinstance");
+				"jdbc:mysql://xxx.xxx.xxx.xxx.xxx/xxx", "xxx", "xxx");
 		return con;
 	}
 
